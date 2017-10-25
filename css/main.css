@@ -63,12 +63,13 @@ img {
  button{
    color: white;
    background: green;
-   padding: 15px;
+   padding: 15px;
  }
 
  .background{
 position: absolute;
 width:100%;
+z-index: -1;
 }
  
 
