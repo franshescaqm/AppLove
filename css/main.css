@@ -1,0 +1,163 @@
+/*Seteando mi Archivo*/
+
+body{
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  color: #303030;
+  margin:0;
+  padding: 0;
+}
+
+/*Estilo a mi header*/
+
+/*Imagen de header*/
+
+/*Se a declarado la posición: fixed para la parte inicial sea estatica y se mueva junto con el mouse*/
+header{
+   position: fixed; /*contrae a su contexto como un elemento inline*/
+   outline: 1px solid blue;
+   height: 80px;
+   font-size: 15px;
+   font-weight: 900;
+   background-color: white;
+   width: 100%;
+   /*La posición fixed hace que los elementos se contraigan; se da un ancho 
+   de 100% para  que ocupe todo el ancho*/ 
+}
+
+ nav {
+  outline: 1px solid yellow;
+  display: inline-block;
+}
+
+ul{
+  list-style: none; /*quitando viñetas*/
+  margin: 0; /*Quitando espacio no deseado de las viñetas*/
+  padding: 0; /*Quitando espacio no deseado de las viñetas*/
+  line-height: 80px; /*Espacio de ancho dentro de encabexado*/
+  margin-left: 70px; /*Se esta moviendo el listado (li) hacía la derecha*/
+}
+
+li{
+  /*float: left; /*moviendo lista hacia la derecha*/
+  display: inline-block;
+  width: 100px;
+}
+
+.logo{
+  outline: 1px solid red;
+  float: right;
+  width: 80px; 
+}
+
+img {
+  width: 100%;
+}
+
+/*empezando maquetación web */
+
+#header-two{
+  margin-top: 150px;
+ }
+
+ button{
+   color: white;
+   background: green;
+   padding: 15px;
+ }
+
+ .background{
+position: absolute;
+width:100%;
+}
+ 
+
+a{
+  outline: 1px solid pink;
+  display: block;
+  text-align: center;
+}
+
+section {
+text-align: center;
+}
+
+h1{
+  font-size: 50px;
+}
+
+footer{
+  outline: 1px solid purple;
+  text-align: center;
+}
+
+
+/*CLASES REUTILIZABLES*/
+
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/*divs*/
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+/*footer*/
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+/*header*/
+.mt-0 {
+  margin-top: 0px;
+}
+
+/*?*/
+.m-0 {
+  margin: 0px;
+}
+
+/*La letra tendra un color negro-gris por defecto*/
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+/*Al pasar el mouse encima, la letra tornara rosado*/
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+
